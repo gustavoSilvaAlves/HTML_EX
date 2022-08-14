@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 align="center">Lista de exercícios de HTML</h1>
+	<h4>1) Faça uma página em html parar exibir o seguinte resultado:</h4>
+	<ol>
+		<li>&nbsp;Fechar contrato</li>
+		<li>&nbsp;Análise de sistema</li>
+		<ol>
+			<li>&nbsp;Avaliação da empresa</li>
+			<ol>
+				<li>&nbsp;Entrevista<br>&nbsp;com <br>&nbsp;funcionário<br>&nbsp;s</li>
+				<li>&nbsp;Pesquisa de<br>&nbsp;documentaçã<br>&nbsp;o da empresa</li>
+			</ol>	
+			<li>&nbsp;Programação</li>
+			<li>&nbsp;Aprovação do projeto</li>
+		</ol>
+		<li>&nbsp;Treinamento do usuário</ol>
+	</ol>
+
+	<hr>
+
+	<h4>2) Faça uma página em html´para exibir o seguinte resultado</h4>
+
+	<ol>
+		<li>&nbsp;Titanic</li>
+		<li>&nbsp;Meu primeiro amor</li>
+		<li>&nbsp;Uma linda mulher</li>
+	</ol>
+
+	<ol start="10">
+		<li>Exterminador do furuto II</li>
+		<li>De volta para o futuro I,II,III</li>
+		<li>Idiana jones</li>
+	</ol>
+
+	<ol start="20">
+		<li>Sexta-feira 13</li>
+		<li>A hora do pesadelo</li>
+	</ol>		
+
+	<hr>
+
+	<h4>3) Faça a tela a baixo</h4>
+
+	<body>
+
+		<h1>Entre em contato</h1>
+		<form>
+			<p>
+				<input type="text" id="nome" required placeholder="Tiago Vale">
+				<label for="nome">Nome</label>
+			</p>
+
+			<p>
+				<input type="tel" id="telefone" required placeholder="(xx)xx-xx-xx-xx">
+				<label for="telefone">Fone</label>
+			</p>
+
+			<p>
+				<input type="email" id="email" required placeholder="fulano@mail.com">
+				<label for="email">Email</label>
+			</p>
+
+			<p>
+				<textarea cols="25" rows="5" required placeholder="Deixe sua opinião"></textarea>
+			</p>
+
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+
+	<hr>
+
+	<h4>4) Crie um novo formulário utilizando todos os tipo de entradas de dados (inputs) do HTML5 apresentados em sala.</h4>
+
+	<form>
+			<p>
+				<label for="nome_2">Nome</label>
+				<input type="text" id="nome_2" required placeholder="Tiago Vale" required>
+			</p>
+
+			<p>
+				<label for="telefone_2">Fone</label>
+				<input type="tel" id="tele fone_2" required placeholder="(xx)xx-xx-xx-xx">
+			</p>
+
+			<p>
+				<label for="email_2">Email</label>
+				<input type="email" id="email_2" required placeholder="fulano@mail.com">
+				
+			</p>
+
+			<p>
+				<textarea cols="25" rows="5" required placeholder="Deixe sua opinião"></textarea>
+			</p>
+
+			<p>
+				<label for="senha">Senha</label>
+				<input type="password" id="senha" required>
+			</p>
+
+			<p>
+				<label for="idade">Idade</label>
+				<input type="number" id="idade">
+				
+			</p>
+
+			<p> 
+				<label for="qtd">Quantidade</label>
+				<input type="range" id="qtd">
+				
+			</p>
+
+			<p> 
+				<label for="url_id">URL</label>
+				<input type="url" id="url_id">
+				
+			</p>
+
+			<p> 
+				<label for="date">Data</label>
+				<input type="date" id="date">
+				
+			</p>
+
+			<p> 
+				<label for="date">Data-hora-fuso</label>
+				<input type="datetime" id="date">
+				
+			</p>
+
+			<p> 
+				<label for="date3">Data-hora</label>
+				<input type="datetime-local" id="date3">
+				
+			</p>
+
+			<p> 
+				<label for="mes">Mês</label>
+				<input type="month" id="mes">
+				
+			</p>
+
+			<p> 
+				<label for="hora">Hora</label>
+				<input type="time" id="hora">
+				
+			</p>
+
+			<p> 
+				<label for="semana">Semana</label>
+				<input type="week" id="semana">
+				
+			</p>
+
+			<p> 
+				<label for="check">Caixa</label>
+				<input type="checkbox" id="check">
+				
+			</p>
+
+			<label for="Flamengo">Flamengo</label>
+			<input type="checkbox" value="Flamengo" name="times">
+			<label for="Flamengo">São Paulo</label>	
+			<input type="checkbox" value="São Paulo" name="times">
+			<label for="Botafogo">Botafogo</label>
+			<input type="checkbox" value="Botafogo" name="times">
+
+			<p>	
+				<input type="radio" name="sex" value="masculino" checked>Masculino
+				<br>
+				<input type="radio" name="sex" value="feminino" checked>feminino
+			</p>
+
+			<input id="botao_id" name="file" type="file">
+			<br>
+
+			<p>
+			<input id="comida_id" name="comida" type="text" list="comidas_id">
+			<datalist id="comidas_id">
+				<option value="Lasanha">
+				<option value="Feijão">
+				<option value="Macarrão">
+			</datalist>
+			</p>
+			<input type="submit" value="Enviar">
+
+	</form>
+
+</body>
+</html>
